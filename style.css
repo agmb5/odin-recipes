@@ -2,8 +2,79 @@
     background-color: beige;
 }
 
-h1 {
-    text-align: center;
+body {
+    margin: 0px;
+}
+
+.navbar {
+    border-bottom: dotted 1px hsl(0, 6%, 54%);
+    font-size: 20px;
+}
+
+.navbarlinks {
+    display: flex;
+    gap: 12px;
+    list-style: none;
+    padding: 12px;
+    align-items: center;
+    margin: 0;
+    
+}
+
+li.logo {
+    margin-right: auto;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: brown;
+}
+
+.content1 {
+    display: flex;
+    margin: 12px;
+    gap: 10px;
+    border: solid;
+    
+}
+
+.content2 {
+    display: flex;
+    margin: 12px;
+    gap: 10px;
+    
+}
+
+.x{
+    margin-right: auto;
+    
+}
+
+.content2 img {
+    margin-left: auto;
+    flex-basis: 2000px;
+}
+
+.content1 p {
+    text-align: justify;
+    align-self: center;
+}
+
+.content2 p {
+    text-align: justify;
+    align-self: center;
+}
+
+
+
+
+
+
+
+
+
+.homepage {
+    display: flex;
+    justify-content:flex-start;
+
     font-weight: bold;
     color: brown;
 
@@ -27,11 +98,18 @@ h4 {
     text-align: center;
 }
 
-ul, ol {
+.parentpizza {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    align-items: center;
+    border: solid black;
+    flex: auto;
+    
+}
 
-    margin-left: auto;
-    margin-right: auto;
-    width: 200px;
+.pizzaparty {
+    margin-top:  0px;
 }
 
 #ff {
